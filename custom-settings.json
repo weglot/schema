@@ -1,0 +1,110 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Custom Settings",
+    "type": "object",
+    "description": "Custom settings for Weglot projects",
+    "properties": {
+        "loading_bar": {
+            "type": "boolean"
+        },
+        "hide_switcher": {
+            "type": "boolean"
+        },
+        "wait_transition": {
+            "type": "boolean"
+        },
+        "media_enabled": {
+            "type": "boolean"
+        },
+        "auto_switch": {
+            "type": "boolean"
+        },
+        "geo_auto_switch": {
+            "type": "boolean"
+        },
+        "multilingual_sitemap": {
+            "type": "boolean"
+        },
+        "override_bot_agent": {
+            "type": "boolean"
+        },
+        "dangerously_enable_cross_domain_cookies": {
+            "type": "boolean"
+        },
+        "auto_inject_script": {
+            "type": "boolean"
+        },
+        "external_enabled": {
+            "type": "boolean"
+        },
+        "disable_cookie_encoding": {
+            "type": "boolean"
+        },
+        "override_hreflang": {
+            "type": "boolean"
+        },
+        "override_csp": {
+            "type": "boolean"
+        },
+        "translate_aria": {
+            "type": "boolean"
+        },
+        "disabled": {
+            "type": "boolean"
+        },
+        "original_shopify_checkout": {
+            "type": "boolean"
+        },
+        "translate_search": {
+            "type": "boolean"
+        },
+        "dynamicPushState": {
+            "type": "boolean"
+        },
+        "search_forms": {
+            "type": "string"
+        },
+        "whitelist": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "translate_iframes": {
+            "type": "string"
+        },
+        "merged_selectors_remove": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "proxify_iframes": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "excluded_blocks_remove": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "switchers": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "http_monitoring": {
+            "type": "object"
+        },
+        "button_style": {
+            "type": "object"
+        },
+        "definitions": {
+            "type": "object"
+        }
+    }
+}
